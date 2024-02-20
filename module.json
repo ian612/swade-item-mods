@@ -1,0 +1,41 @@
+{
+  "id": "swade-item-mods",
+  "title": "SWADE Item Mods",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This module adds the ability to mark items as being installed within or attached to other items (effectively creating parent and child items within actors).",
+  "authors": [
+    {
+      "name": "Ian Bennett",
+      "discord": "spacemanian",
+      "url": "github.com/ian612",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "demo-modifications",
+      "label": "Demo Modifications",
+      "path": "packs/demo-modifications",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    }
+  ]
+}
