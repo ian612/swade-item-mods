@@ -4,7 +4,10 @@
   "description": "A foundry module to enable item modification items in the SWADE system.",
   "main": "dist/swade-item-mods.js",
   "scripts": {
-    "pack": "echo \"Error: no pack specified\" && exit 1"
+    "build": "node build/build.mjs",
+    "less": "less src/less/main.less dist/main.css",
+    "unpack": "node build/unpack.mjs",
+    "pack": "node build/pack.mjs"
   },
   "repository": {
     "type": "git",

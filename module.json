@@ -24,11 +24,6 @@
       "flags": {}
     }
   ],
-  "scripts": {
-    "less": "less src/less/main.less dist/main.css",
-    "unpack": "node build/unpack.mjs",
-    "pack": "node build/pack.mjs"
-  },
   "packs": [
     {
       "name": "demo-modifications",
