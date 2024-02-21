@@ -1,0 +1,32 @@
+{
+  "name": "swade-item-mods",
+  "version": "0.1.0",
+  "description": "A foundry module to enable item modification items in the SWADE system.",
+  "main": "dist/swade-item-mods.js",
+  "scripts": {
+    "pack": "echo \"Error: no pack specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian612/swade-item-mods.git"
+  },
+  "keywords": [
+    "Foundry",
+    "VTT",
+    "FoundryVTT",
+    "Module",
+    "Savage",
+    "Worlds",
+    "SWADE"
+  ],
+  "author": "Ian Bennett",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ian612/swade-item-mods/issues"
+  },
+  "homepage": "https://github.com/ian612/swade-item-mods#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "less": "^4.2.0"
+  }
+}
