@@ -11,7 +11,9 @@
       {
         "id": "swade",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "3.3.0"
+        }
       }
     ]
   },
@@ -24,6 +26,26 @@
       "flags": {}
     }
   ],
+  "manifest": "updatedByRelease",
+  "url": "updatedByRelease",
+  "download": "updatedByRelease",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "dist/lang/en.json",
+      "flags": {}
+    }
+  ],
+  "license": "LICENSE",
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "hbs", "json"],
+      "paths": ["lang", "styles", "templates"]
+    }
+  },
+  "esmodules": ["dist/init.mjs"],
+  "styles": ["dist/styles/main.css"],
   "packs": [
     {
       "name": "demo-modifications",
