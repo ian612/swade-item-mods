@@ -5,6 +5,7 @@
   "main": "dist/swade-item-mods.js",
   "scripts": {
     "build": "node build/build.mjs",
+    "clean": "node build/clean.mjs",
     "less": "less src/less/main.less dist/main.css",
     "unpack": "node build/unpack.mjs",
     "pack": "node build/pack.mjs"

@@ -1,10 +1,14 @@
 // Required Packages
 import fs from 'fs';
 import path from 'path';
+import {clean} from './clean.mjs';
 
 // Source and destination folders
 const sourceDirectory = path.join('./src','');
 const targetDirectory = path.join('./dist','');
+
+// Clean up 'dist' directory if it exists
+clean(targetDirectory);
 
 // A list of folders to ignore when we're copying files 1-to-1 (these are included in a different manner)
 const ignoreDirList = ['less', 'packs'];
