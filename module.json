@@ -17,7 +17,7 @@
       }
     ]
   },
-  "description": "This module adds the ability to mark items as being installed within or attached to other items (effectively creating parent and child items within actors).",
+  "description": "Designate items as modifications that can be installed into other items.",
   "authors": [
     {
       "name": "Ian Bennett",
@@ -45,7 +45,7 @@
     }
   },
   "esmodules": ["dist/init.mjs"],
-  "styles": ["dist/styles/main.css"],
+  "styles": ["dist/main.css"],
   "packs": [
     {
       "name": "demo-modifications",
