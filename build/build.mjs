@@ -8,18 +8,6 @@ import less from 'less';
 const sourceDirectory = path.join('./src','');
 const targetDirectory = path.join('./dist','');
 
-// LESS compilation function
-function compileLESS (fromFile, toFile) {
-    const from = path.join(sourceDirectory, 'less', fromFile);
-    const to = path.join(targetDirectory, toFile);
-    fs.readFileSync(from, (err, data) => {
-        if (err) return;
-        less.render(data.toString(), {compress:true, paths:[__dirname]}, (e,output) => {
-            if (!e) fs.writeFileSync(to, output.css);
-        });
-    });
-}
-
 // Clean up 'dist' directory if it exists
 clean(targetDirectory);
 
